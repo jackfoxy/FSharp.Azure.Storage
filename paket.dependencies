@@ -1,10 +1,10 @@
 redirects: on
 source https://www.nuget.org/api/v2/
 
-nuget FSharp.Core ~> 3.1 redirects:force
-nuget Unquote ~> 3.1
-nuget WindowsAzure.Storage ~> 3.1
-nuget xunit ~> 2.0
+nuget FSharp.Core 
+nuget Unquote 
+nuget WindowsAzure.Storage 
+nuget xunit 
 nuget xunit.extensions
 nuget xunit.runner.console
 nuget xunit.runner.visualstudio version_in_path: true
